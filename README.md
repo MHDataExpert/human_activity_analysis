@@ -42,4 +42,4 @@ Triaxial angular velocity from the gyroscope
 A 561-feature vector with time and frequency domain variables
 Activity labels for each recorded activity
 An identifier for each individual
-For more information, visit the dataset on Kaggle.[https://www.kaggle.com/datasets/uciml/human-activity-recognition-with-smartphones]
+For more information, visit the dataset on Kaggle [Data set](https://www.kaggle.com/datasets/uciml/human-activity-recognition-with-smartphones).
