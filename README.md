@@ -89,6 +89,21 @@ By analyzing this chart and using the "Elbow Method," we observe that the rate o
 
 In this test, our goal is to evaluate the quality of the data clustering. This assessment determines whether each data point has been correctly placed in the appropriate cluster. The Silhouette Score indicates how close the data points are to their own cluster and how far they are from other clusters, providing a reliable measure of clustering quality.
 ![Silhouette](https://github.com/user-attachments/assets/bc17e9ea-2f5a-4a09-a086-3f690eb4ad6e)
+
+
 We observe that selecting 2 clusters yields the highest Silhouette score. However, considering our goal of dividing the data into more clusters, choosing 3 clusters seems more reasonable. This choice still maintains an acceptable Silhouette score while allowing for a more detailed clustering of the data.
+
+
+
+
+###  clustering visualization
+
+
+![Uploading visualization.png…]()
+
+
+
+
+In this plot, we have visually represented the clusters using PAC, which is employed for cluster analysis. This method helps us to better understand the structure and relationships between clusters and provides a clearer view of the shared features and differences among them.
 
 
