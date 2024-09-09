@@ -99,7 +99,7 @@ We observe that selecting 2 clusters yields the highest Silhouette score. Howeve
 ###  clustering visualization
 
 
-![Uploading visualization.png…]()
+![visualization](https://github.com/user-attachments/assets/d2b92574-e69d-433f-93c4-9e018ba3ce63)
 
 
 
