@@ -107,3 +107,15 @@ We observe that selecting 2 clusters yields the highest Silhouette score. Howeve
 In this plot, we have visually represented the clusters using PAC, which is employed for cluster analysis. This method helps us to better understand the structure and relationships between clusters and provides a clearer view of the shared features and differences among them.
 
 
+###  confusion matrix
+
+
+In this section, we use an evaluation called the confusion matrix to assess the performance of our model. This evaluation helps us understand how the model assigns input data to different clusters and allows us to evaluate its effectiveness in accurately identifying activities.
+
+
+![Shot 0012](https://github.com/user-attachments/assets/d309eef9-f4df-4e6a-9119-09c961137b15)
+
+
+Cluster 0: Contains a high number of walking-related activities (WALKING and WALKING_UPSTAIRS).
+Cluster 1: Focuses on non-walking activities (LAYING, SITTING, STANDING).
+Cluster 2: Includes walking activities with a significant number of WALKING_DOWNSTAIRS samples
