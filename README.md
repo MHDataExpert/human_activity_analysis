@@ -73,3 +73,22 @@ For example, the gravityMean feature is identified as the most significant, indi
 In our implementation of the Random Forest model, we used cross-validation to evaluate its performance. The hyperparameters of the model were tuned using the cross-validation results to optimize its performance on the dataset. The hyperparameters are detailed in the provided DataFrame, ensuring that the model is well-tuned for the task at hand.
 
 
+## K_means
+
+In the K-Means algorithm, our goal is not to predict but to group data points that share significant similarities. By doing so, we can identify the common features within each group and also determine the characteristics that differentiate the data points across various groups. This approach helps us uncover hidden patterns in the data, enabling us to perform deeper analyses of the data's structure.
+
+###  Elbow method
+One of the key steps in this model is determining the optimal number of clusters. To do this, we run the model with different numbers of clusters and calculate the distance of each data point from the centroid of the nearest cluster. This process allows us to identify the optimal number of clusters, ensuring that the clustering best reflects the structure of the data
+![kmeans_elbow_plot](https://github.com/user-attachments/assets/e2b19157-ee3a-4fa4-87d1-be06589864fb)
+
+By analyzing this chart and using the "Elbow Method," we observe that the rate of inertia reduction slows down after 3 to 5 clusters. This behavior indicates that increasing the number of clusters beyond this range does not significantly improve the quality of clustering. Therefore, the optimal number of clusters lies between 3 and 5. Choosing the number of clusters within this range allows us to segment the data effectively and identify patterns with greater accuracy
+
+
+
+### Silhouette score
+
+In this test, our goal is to evaluate the quality of the data clustering. This assessment determines whether each data point has been correctly placed in the appropriate cluster. The Silhouette Score indicates how close the data points are to their own cluster and how far they are from other clusters, providing a reliable measure of clustering quality.
+![Silhouette](https://github.com/user-attachments/assets/bc17e9ea-2f5a-4a09-a086-3f690eb4ad6e)
+We observe that selecting 2 clusters yields the highest Silhouette score. However, considering our goal of dividing the data into more clusters, choosing 3 clusters seems more reasonable. This choice still maintains an acceptable Silhouette score while allowing for a more detailed clustering of the data.
+
+
