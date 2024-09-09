@@ -116,6 +116,9 @@ In this section, we use an evaluation called the confusion matrix to assess the 
 ![Shot 0012](https://github.com/user-attachments/assets/d309eef9-f4df-4e6a-9119-09c961137b15)
 
 
+
 Cluster 0: Contains a high number of walking-related activities (WALKING and WALKING_UPSTAIRS).
+
 Cluster 1: Focuses on non-walking activities (LAYING, SITTING, STANDING).
+
 Cluster 2: Includes walking activities with a significant number of WALKING_DOWNSTAIRS samples
