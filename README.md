@@ -64,6 +64,12 @@ Automatic Feature Selection: The model automatically identifies and prioritizes 
 
 The features displayed in this chart are ranked based on their impact on the decision-making of the Random Forest model. The higher the importance value, the greater the influence of that feature on predicting human activities.
 
-For example, the gravityMean feature is identified as the most significant, indicating the effect of gravitational force on physical behaviors. Accelerometer-related features, such as tBodyAcc-min()-X and tBodyAcc-energy()-X, are among the most important variables, assisting the model in distinguishing between movements like standing and walking. Additionally, gyroscope-related features, such as fBodyAcc-max()-X and fBodyAcc-min()-Y, are also among the top features and help the model in detecting rotational and twisting body movements
+For example, the gravityMean feature is identified as the most significant, indicating the effect of gravitational force on physical behaviors. Accelerometer-related features, such as tBodyAcc-min()-X and tBodyAcc-energy()-X, are among the most important variables, assisting the model in distinguishing between movements like standing and walking. Additionally, gyroscope-related features, such as fBodyAcc-max()-X and fBodyAcc-min()-Y, are also among the top features and help the model in detecting rotational and twisting body movement
 
-ؤ
+### cross validation 
+![dataframe_image_frature](https://github.com/user-attachments/assets/1fb82869-c15a-43b6-81f0-9cf3f6e3a035)
+
+
+In our implementation of the Random Forest model, we used cross-validation to evaluate its performance. The hyperparameters of the model were tuned using the cross-validation results to optimize its performance on the dataset. The hyperparameters are detailed in the provided DataFrame, ensuring that the model is well-tuned for the task at hand.
+
+
