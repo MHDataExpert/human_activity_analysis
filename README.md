@@ -48,6 +48,21 @@ For more information, visit the dataset on Kaggle [Data set](https://www.kaggle.
 
 This project is developed with the aim of analyzing and predicting data using machine learning techniques. In this project, two distinct models of popular machine learning algorithms are employed: Random Forest and K-Means
 
+## Exploratory Data Analysis (EDA)
+
+
+![angle_Y_gravityMean](https://github.com/user-attachments/assets/0b35df61-9480-4d5b-89c5-2a7a2dac2558)
+
+Interpretation of the Graphs:
+
+Each graph illustrates how the gravitational angle in the Y direction (angle(Y, gravityMean)) changes over time for specific activities. These variations help distinguish between different activities:
+
+Laying Down (LAYING): The graph shows relatively constant or oscillatory patterns, indicating the body is in a stable position.
+
+Walking (WALKING): The graph displays periodic peaks and troughs, reflecting bodily movement during walking.
+
+Walking Upstairs (WALKING UPSTAIRS) and Walking Downstairs (WALKING DOWNSTAIRS): These graphs exhibit sudden changes due to the effort involved in ascending or descending stairs.
+
 
 ## Random forrest
 
